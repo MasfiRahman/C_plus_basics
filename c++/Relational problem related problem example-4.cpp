@@ -1,0 +1,15 @@
+#include<iostream>
+#include<conio.h>
+using namespace std;
+int main(){
+int num1,num2;
+cout<<"Enter Two Number: ";
+cin>>num1>>num2;
+
+if(num1<num2){
+    cout<<num2;
+}else{
+     cout<<num1;
+}
+getch();
+}
